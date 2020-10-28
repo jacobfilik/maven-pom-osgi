@@ -42,4 +42,11 @@
       </plugin>
     </plugins>
   </build>
+
+	<parent>
+		<groupId>org.dawnsci.multimodule</groupId>
+		<artifactId>org.dawnsci.multimodule</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
 </project>
